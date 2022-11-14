@@ -21,6 +21,7 @@ def main():
     html_temp = """
     <div style="background-color:cyan;padding:10px">
     <h4 style="color:black;text-align:center;">Filter, Blemish removal and Hough Transform for circles</h4>
+    <h5 style="color:black;text-align:right;">Author: Aditya B.</h5>
     </div><br>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
