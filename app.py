@@ -1,12 +1,11 @@
 #-------------------------------------------------------------------------------
-# Name:        module1
-# Purpose:
+# Name:        Negative Filter, Blemish removal and hough tranform circle  
+# Purpose:  Assignment Deployment using Streamlit
 #
-# Author:      Aditya
+# Author:      Aditya B.
 #
 # Created:     10-11-2022
 # Copyright:   (c) Aditya 2022
-# Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
 import cv2
