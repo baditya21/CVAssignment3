@@ -11,11 +11,9 @@
 import cv2
 import streamlit as st
 import numpy as np
-import numpy as np
 import cv2
-from matplotlib import pyplot as plt
 from PIL import Image, ImageFilter
-#%matplotlib inline
+
 
 
 def main():
