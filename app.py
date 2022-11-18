@@ -25,7 +25,7 @@ def main():
     </div><br>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
-    image_file = st.file_uploader("Choose a image file", type="jpg")
+    image_file = st.file_uploader("Choose a image file", type=["jpg","jpeg","png"])
     if image_file is not None:
         file_bytes = np.asarray(bytearray(image_file.read()), dtype=np.uint8)
         img = cv2.imdecode(file_bytes, 1)
